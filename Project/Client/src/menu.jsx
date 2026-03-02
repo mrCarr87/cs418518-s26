@@ -1,10 +1,16 @@
-export default function menu(){
+
+
+export default function Menu(){
     return(
-        <div className="menu">
+        <nav className="menu">
             <ul>
-                <li></li>
-                <li></li>
+                <li><button>
+                    
+                    </button></li>
+                <li><button>
+                    
+                    </button></li>
             </ul>
-        </div>
-    )
+        </nav>
+    );
 }
